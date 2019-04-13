@@ -1,0 +1,14 @@
+version: '3'
+
+services:
+  vue:
+    container_name: front
+    build: .
+    ports:
+      - "8080:8080"
+    working_dir: /app
+    tty: true
+    volumes:
+      - ./app/helloworld-front:/app/
+      - ../protoc-gen-docker/src/pb/:/app/pb
+      #Users/komoriryuuta/project/src/github.com/ryutakomori/based-proton-ts/src/pb
