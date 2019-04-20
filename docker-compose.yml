@@ -9,6 +9,10 @@ services:
     working_dir: /app
     tty: true
     volumes:
+      - ../protoc-gen-docker/src/ts:/app/src/pb
       - ./app/helloworld-front:/app/
-      - ../protoc-gen-docker/src/pb/:/app/pb
-      #Users/komoriryuuta/project/src/github.com/ryutakomori/based-proton-ts/src/pb
+#     networks:
+#       - helloworld-server_default
+# networks:
+#   helloworld-server_default:
+#     external: true
