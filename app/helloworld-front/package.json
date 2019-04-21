@@ -38,7 +38,6 @@
     "eslint-plugin-vue": "^5.0.0",
     "google-protobuf": "^3.7.1",
     "grpc": "^1.19.0",
-    "grpc-web": "^1.0.4",
     "less": "^3.0.4",
     "less-loader": "^4.1.0",
     "ts-jest": "^23.0.0",
