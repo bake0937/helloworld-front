@@ -1,5 +1,6 @@
 <template lang="pug">
     h1 {{msg}}
+
 </template>
 
 <script lang="ts">
@@ -14,7 +15,7 @@ import { HelloRequest, HelloResponse } from "@/pb/helloworld_service_pb";
 import { GreeterClient } from "@/pb/helloworld_service_pb_service";
 
 @Component({})
-export default class AboutView extends Vue {
+export default class HelloworldView extends Vue {
   msg: string = "";
 
   private created() {
@@ -33,3 +34,5 @@ export default class AboutView extends Vue {
   }
 }
 </script>
+
+
