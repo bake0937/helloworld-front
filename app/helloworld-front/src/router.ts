@@ -13,6 +13,12 @@ export default new Router({
       name: "sample01",
       component: () =>
         import("./views/Helloworld.vue")
+    },
+    {
+      path: "/sample02",
+      name: "sample02",
+      component: () =>
+        import("./views/Address.vue")
     }
   ]
 });
