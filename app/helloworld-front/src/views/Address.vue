@@ -1,6 +1,8 @@
 <template lang="pug">
-    
-
+  el-table(:data="tvds" style="width:100%")
+    el-table-column(fixed prop="id" label="Id" width="150")
+    el-table-column(fixed prop="email" label="Email" width="150")
+  
 </template>
 
 <script lang="ts">
