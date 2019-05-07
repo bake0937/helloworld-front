@@ -74,7 +74,7 @@ export default class AddressView extends Vue {
       addresses.forEach((v:any , i:number) => {
         var tObj: TableViewData = {
           id: v.getId(),
-          email: v.getEmail(),
+          email: v.getEmail()
         };
         this.tvds.push(tObj);
       });
