@@ -15,7 +15,7 @@ export default class HelloworldView extends Vue {
   private created() {
     var req = new HelloRequest();
 
-    req.setName("aaaaaaa");
+    req.setName("World");
 
     const svc = new GreeterClient("http://localhost:8888");
 
